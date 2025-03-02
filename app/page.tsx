@@ -1,3 +1,4 @@
+import createPost from "@/server/actions/create-posts";
 import getPosts from "@/server/actions/get-posts";
 
 export default async function Home() {
@@ -11,6 +12,10 @@ export default async function Home() {
           </div>
         );
       })}
+      <form action={createPost}>
+        <input type="text" name="title" placeholder="title"/>
+        <button type="submit">Submit</button>
+      </form>
     </main>
   );
 }
