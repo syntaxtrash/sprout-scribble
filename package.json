@@ -11,12 +11,14 @@
     "db:push": "drizzle-kit push --config ./drizzle.config.ts"
   },
   "dependencies": {
+    "@auth/drizzle-adapter": "^1.8.0",
     "@radix-ui/react-slot": "^1.1.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "drizzle-orm": "^0.40.0",
     "lucide-react": "^0.477.0",
     "next": "15.2.0",
+    "next-auth": "^5.0.0-beta.16",
     "pg": "^8.13.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
