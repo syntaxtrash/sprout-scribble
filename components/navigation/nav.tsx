@@ -7,7 +7,7 @@ export default async function Nav() {
   const session = await auth();
 
   return (
-    <header className="w-full border-b border-gray-200 bg-white px-4 py-3">
+    <header className="py-8">
         <nav>
             <ul className="flex justify-between items-center">
                 <li>aaron pogi</li>
