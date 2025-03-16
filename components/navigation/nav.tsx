@@ -10,7 +10,9 @@ export default async function Nav() {
     <header className="py-8">
         <nav>
             <ul className="flex justify-between items-center">
-                <li>aaron pogi</li>
+                <li>
+                    <Link href={"/"}>aaron pogi</Link>
+                </li>
                 <li>
                     {!session ? (
                         <Button>
